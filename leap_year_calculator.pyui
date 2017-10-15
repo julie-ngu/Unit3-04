@@ -1,0 +1,106 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{163, 162}, {317, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System-Bold>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "6EB47565-4621-4288-A2C5-B5E08B7FD801",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Leap Year Calculator",
+          "name" : "title_label",
+          "font_size" : 30
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{268, 220}, {479, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "instruction_label",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "6EB47565-4621-4288-A2C5-B5E08B7FD801",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Enter a year (after B.C.) to see if it's a leap year:",
+          "font_size" : 22,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{354, 260}, {296, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_size" : 20,
+          "frame" : "{{412, 368}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "21503C42-6CC0-4D4D-B0C2-E16E72D8F0BE",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "enter_year_textfield",
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{462, 312}, {82, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "check_button_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Check",
+          "class" : "Button",
+          "uuid" : "29CB558B-768D-4D39-AFA7-D281B1FBCC67",
+          "font_size" : 18,
+          "name" : "check_button"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{268, 363}, {479, 72}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "20A2DD54-6BC7-41D4-A86E-7969B0D9D200",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "answer_label",
+          "font_name" : "<System>"
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
